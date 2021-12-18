@@ -46,7 +46,7 @@ export class Detail extends Component {
         const qs=queryString.parse(this.props.location.search);
         const {restauarnt}=qs
         axios({
-            url:`http://localhost:6632/restaurant/${restauarnt}`,
+            url:`https://zomato-clonebc.herokuapp.com/restaurant/${restauarnt}`,
             method:"GET",
             headers:{"Content-Type":"application/json" }
          }).then(res=>{
@@ -60,7 +60,7 @@ export class Detail extends Component {
         const{resId}=this.state
         if(state ==="menuItemModel" && value=== true){
             axios({
-                url:`http://localhost:6632/menuitems/${resId}`,
+                url:`https://zomato-clonebc.herokuapp.com/menuitems/${resId}`,
                 method:"GET",
                 headers:{"Content-Type":"application/json" }
              }).then(res=>{
@@ -136,7 +136,7 @@ export class Detail extends Component {
         };
     
         getData = (data) => {
-            return fetch("http://localhost:6632/payment", {
+            return fetch("https://zomato-clonebc.herokuapp.com/payment", {
                 method: "POST",
                 headers: {
                     Accept: "application/json",
