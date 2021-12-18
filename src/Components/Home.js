@@ -17,14 +17,14 @@ class Home extends React.Component {
  componentDidMount(){
    sessionStorage.clear();
    axios({
-      url:"http://localhost:6632/location",
+      url:"https://zomato-clonebc.herokuapp.com/location",
       method:"GET",
       headers:{"Content-Type":"application/json" }
    }).then(res=>{
     this.setState({ Locations : res.data.location})
    }).catch(err=>console.log(err))
    axios({
-      url:"http://localhost:6632/MealTypes",
+      url:"https://zomato-clonebc.herokuapp.com/MealTypes",
       method:"GET",
       headers:{"Content-Type":"application/json" }
    }).then(res=>{
