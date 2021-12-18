@@ -85,7 +85,7 @@ handleLoginWithCredentials=()=>{
       password:loginPassword
     }
     axios({
-      url:"http://localhost:6632/login",
+      url:"https://zomato-clonebc.herokuapp.com/login",
       method:"POST",
       headers:{"Content-Type":"application/json" },
       data:loginObj
@@ -116,7 +116,7 @@ handleRegistration=()=>{
             lastname:lastName
         };
         axios({
-            url:"http://localhost:6632/signup",
+            url:"https://zomato-clonebc.herokuapp.com/signup",
             method:"POST",
             headers:{"Content-Type":"application/json" },
             data:registrationObj
