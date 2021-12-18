@@ -1,0 +1,383 @@
+.homelogo{
+    width: 80px;
+    height: 80px;
+    background-color: beige;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 48px;
+    color: red;
+    margin-left: 38%;
+}
+
+.headings{
+    font-size: 38px;
+    text-transform: capitalize;
+    color: white;
+    line-height: 5rem;
+    font-weight: bold;
+}
+.selectDropdown{
+    width: 210px;
+    height: 40px;
+    padding-left: 0%;
+    font-size: 18px;
+    color: grey;
+    padding-left: 2%;
+    font-family: emoji;
+    
+    
+}
+
+
+.search-input{
+    width: 450px;
+    height: 40px;
+    padding-left: 13%;
+    font-size: 20px;
+    margin-left: 5%;
+    font-size: 18px;
+
+}
+
+
+.search-icon{
+    position: absolute;
+   
+    margin-left: 48px;
+    margin-top: 13px;
+
+}
+.position{
+    position: absolute;
+    top: 20%;
+    left: 25%;
+}
+
+.SignUp-button{
+    margin-left: 40px;
+    width: 170px;
+
+    position: absolute;
+    top: 2%;
+    left:82%;
+}
+.login-button{
+    
+    width: 110px;
+   
+    position: absolute;
+    top: 2%;
+    left: 74%;
+    
+
+
+}
+.searchdata{
+   
+    list-style: none;
+    
+}
+    
+
+.listSearch{
+    width: 448px;
+    height: 35px;
+    background-color: whitesmoke;
+    margin-left: 213px;
+    list-style: none;
+    padding-left: 33px;
+    color: red;
+    border: 1px solid red;
+}
+
+
+
+/* li {
+    list-style: none;
+    background-color: lightgray;
+    background-image: linear-gradient(90deg, red 20px, lightgray 10px);
+    padding: 10px 15px 10px 25px;
+    border: 1px solid #CCC;
+    box-shadow: inset 1px 1px 0 rgba(255, 255, 255, 0.5);
+    margin-bottom: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    cursor: pointer;
+    border-radius: 3px;
+} */
+
+/* #query {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 19px;
+    padding: 5px;
+    font-family: calibri light;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    background-color: lightgray;
+    color: gray;
+    padding-left: 29px;
+} */
+
+/* #notebooks {
+    position: absolute;
+    left: 38%;
+    width: 350px;
+    border-radius: 5px;
+    max-height: 450px;
+} */
+
+/* ul {
+    margin: 0 auto;
+    padding: 0;
+    max-height: 390px;
+    overflow-y: auto;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 5px 5px 0 5px;
+    border-left: none;
+    border-right: none;
+} */
+
+/* #notebooks span {
+    display: block;
+    position: absolute;
+    background: #FFD32E;
+    bottom: -35px;
+    left: -1px;
+    width: 360px;
+    border-radius: 0 0 5px 5px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: inset 1px 1px rgba(255, 255, 255, 0.5);
+} */
+
+.qs-header{
+    font-size: 34px;
+    font-family: 'Font Awesome 5 Free';
+    color: darkmagenta;
+    font-weight: bold;
+    margin-top: 2%;
+    text-transform: capitalize;
+}
+.qs-subheading{
+    font-size:23px;
+    color: grey;
+    font-family: 'Font Awesome 5 Free';
+    
+}
+
+.left-homepage{
+    width: 31% !important;
+    height: 130px;
+    /* border: 1px solid red; */
+   margin: 20px 25px 30px 0px;
+    box-shadow: 5px 0px 5px 3px grey;
+}
+.left img{
+    width: 30%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+.right{
+    width: 60%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 21px;
+    padding-top: 20px;
+}
+.card-item{
+    width: 90%;
+    height: 150px;
+   
+    box-shadow: 5px 5px 5px 5px grey;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.left-card-item{
+    width: 40%;
+    height:150px;
+    display: inline-block;
+    vertical-align: top;
+}
+.left-card-item img{
+    width: 100%;
+    height:150px;
+    
+}
+.card-para{
+    padding-left: 10px;
+}
+.right-card-item{
+    width: 55%;
+    height: 150px;
+    display: inline-block;
+    vertical-align: top;
+   
+   
+   
+}
+.card-heading{
+    font-size: 29px;
+    color: #15bfbf;
+    font-family: emoji;
+    text-transform: capitalize;
+    margin-left: 7%;
+}
+.card-par{
+    font-size: 19px;
+   
+    margin-left: 7%;
+    color: darkgray;
+    font-family: emoji;
+}
+/* .payNowdiv{
+         width: 28rem; 
+        margin-top: 10px;
+         margin-bottom: 10px;
+          border-bottom: 2px solid #dbd8d8;
+          height: 100px;
+          
+}
+.card{
+    width: 28rem;
+     margin: auto;
+     height:100px;
+    background-color:antiquewhite
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:600px) {
+    .homelogo{
+       
+        margin-left: 15%;
+}
+.headings{
+    font-size: 24px;
+    line-height: 3rem;
+    margin-left: -30%;
+} .selectDropdown{
+    width: 330px;
+    margin-left: -18%;
+    margin-bottom: 20px;
+}.search-input{
+    width: 330px;
+   
+    margin-left: -18%;
+    margin-top: 6px;
+    
+}
+
+
+.search-icon{
+   
+    margin-left: -320px;
+    margin-top: 80px;
+   
+   
+
+}
+.card-item{
+    margin-left: 20px;
+}
+
+.SignUp-button{
+    margin-left: 10px;
+    width: 150px;
+    position: absolute;
+    top: 2%;
+    left:62%;
+}
+.login-button{
+    
+    width: 80px;
+    position: absolute;
+    top: 2%;
+    left: 45%;
+}
+.qs-header{
+    margin-left: 20px;
+    
+}
+.qs-subheading{
+    margin-left: 20px;
+}
+.card-para{
+    padding-left: 10px;
+}.listSearch{
+    width: 330px;
+    margin-left: -100px;
+    margin-top: 3px;
+}
+
+}
+    
+
+
+
+
+
+@media only screen and (min-width:600px ) and (max-width:792px){
+    
+    .logo{
+       
+        margin-left: 28%;
+}
+.headings{
+    font-size: 27px;
+    line-height: 3.5rem;
+    margin-left: -7%;
+}
+.selectDropdown{
+    width: 195px;
+    margin-left: -10%;
+    margin-bottom: 20px;
+}
+.search-input{
+    width: 324px;
+    margin-left: 11%;
+    margin-top: 3px;
+}
+.position{
+    position: absolute;
+    top: 26%;
+    left: 24%;
+}
+
+}
+
+@media only screen and (min-width:792px) and (max-width:992px){
+    .position{
+        position: absolute;
+        top: 26%;
+        left: 17%;
+    }
+    }
+
+
+
+@media only screen and (min-width:992px) and (max-width:1284px){
+    .position{
+        position: absolute;
+        top: 26%;
+        left: 23%;
+    }
+    .logo{
+       
+        margin-left: 37%;
+}
+    }
+
+

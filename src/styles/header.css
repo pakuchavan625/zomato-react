@@ -1,0 +1,94 @@
+/* .header{
+    width: 100%;
+    height: 50px;
+    background-color: #ff0000;
+    display: inline-block;
+}
+.header-log{
+    width: 40px;
+    height: 40px;
+    background-color: beige;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+    color: red;
+    margin-left: 8%;
+}
+.user-group{
+    
+    color:white;
+    float: right;
+    margin-right: 10%;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.login{
+    display: inline-block;
+    margin-right: 10px;
+
+}
+.signUp{
+    display: inline-block;
+    margin-left: 10px;
+   
+    border:1px solid white;
+    padding: 2px;
+
+} */
+
+.header{
+    height: 50px;
+    background-color: red;
+    
+}
+.header-logo{
+    width: 50px;
+    height: 50px;
+    background-color: beige;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+    color: red;
+    margin-left: 8%;
+    display: inline-block;
+}
+.user-group{
+ 
+    color:white;
+    font-size: 15px;
+    float: right;
+    margin-right: 40px;
+    margin-top: 7px;
+}
+.UserLogin{
+    display: inline-block;
+}
+.userSignUp{
+    display: inline-block;
+    border: 1px solid white;
+    padding: 5px;
+    margin-left: 15px;
+    cursor: pointer;
+
+}
+.or{
+    display: flex;
+    justify-content: center;
+    font-size: 23px;
+
+}
+.google_login{
+    width: 242px
+}
+.facebook{
+    width:240px!important;
+    padding:0px!important
+    
+}
+
+
+@media only screen and (min-width:600px ) and (max-width:792px){
+    .kep-login-facebook.metro{
+        width: 245px;
+    }
+}
