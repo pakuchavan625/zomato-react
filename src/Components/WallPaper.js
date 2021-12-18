@@ -21,7 +21,7 @@ class WallPaper extends React.Component{
 
 
         axios({
-            url:`http://localhost:6632/restaurants/${loactionID}`,
+            url:`https://zomato-clonebc.herokuapp.com/restaurants/${loactionID}`,
             method:"GET",
             headers:{"Content-Type":"application/json" }
          }).then(res=>{
